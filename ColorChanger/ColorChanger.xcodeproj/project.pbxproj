@@ -11,6 +11,8 @@
 		982AC8462B2F2DCD008316B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982AC8452B2F2DCD008316B9 /* ContentView.swift */; };
 		982AC8482B2F2DCF008316B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982AC8472B2F2DCF008316B9 /* Assets.xcassets */; };
 		982AC84B2B2F2DCF008316B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982AC84A2B2F2DCF008316B9 /* Preview Assets.xcassets */; };
+		982AC8522B2F2E6C008316B9 /* SliderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982AC8512B2F2E6C008316B9 /* SliderColor.swift */; };
+		98F558EA2B2F529700C618A0 /* ColorPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F558E92B2F529700C618A0 /* ColorPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		982AC8452B2F2DCD008316B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		982AC8472B2F2DCF008316B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		982AC84A2B2F2DCF008316B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		982AC8512B2F2E6C008316B9 /* SliderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColor.swift; sourceTree = "<group>"; };
+		98F558E92B2F529700C618A0 /* ColorPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		982AC8422B2F2DCD008316B9 /* ColorChanger */ = {
 			isa = PBXGroup;
 			children = (
+				98F558E92B2F529700C618A0 /* ColorPreview.swift */,
+				982AC8512B2F2E6C008316B9 /* SliderColor.swift */,
 				982AC8432B2F2DCD008316B9 /* ColorChangerApp.swift */,
 				982AC8452B2F2DCD008316B9 /* ContentView.swift */,
 				982AC8472B2F2DCF008316B9 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				982AC8462B2F2DCD008316B9 /* ContentView.swift in Sources */,
 				982AC8442B2F2DCD008316B9 /* ColorChangerApp.swift in Sources */,
+				98F558EA2B2F529700C618A0 /* ColorPreview.swift in Sources */,
+				982AC8522B2F2E6C008316B9 /* SliderColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
